@@ -5,6 +5,7 @@ import rigoImage from "../../img/rigo-baby.jpg";
 import Navbar from "./Navbar";
 import Jumbotron from "./Jumbotron";
 import Card from "./Card";
+import Footer from "./Footer";
 
 const cards = [
 	{
@@ -49,6 +50,7 @@ const Home = () => {
 					))}
 				</div>
 			</div>
+			<Footer/>
 		</div>
 	);
 };
